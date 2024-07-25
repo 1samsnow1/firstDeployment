@@ -2,7 +2,9 @@
   
   <shopHeader/>
 
-  <RouterView />
+  <div class="w-full bg-gray-200">
+    <RouterView />
+  </div>
 
   <shopFooter/>
   

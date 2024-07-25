@@ -1,6 +1,6 @@
 <template>
 
-  <section class="md:w-4/5 w-11/12 max-w-5xl mx-auto flex flex-col justify-center items-center my-10">
+  <section class="md:w-4/5 w-11/12 max-w-5xl mx-auto flex flex-col justify-center items-center py-10">
 
     <h2 class="text-lg md:text-xl font-bold flex items-end gap-1 mb-2">
       محصولات
@@ -10,7 +10,7 @@
     <div class="w-full theShadow mb-8"></div>
 
      <!-- product box -->
-    <section class="w-full grid grid-cols-2 sm:grid-cols-4 md:gap-8 gap-4 rounded-lg sm:p-4 sm:shadow-lg shadow-gray-800">
+    <section class="w-full bg-gray-300 grid grid-cols-2 sm:grid-cols-4 md:gap-8 gap-4 rounded-lg sm:px-4 sm:py-6 sm:shadow-lg shadow-gray-800">
       <productCard v-for="product in productList" :key="product" :product="product"/>
     </section>
 
