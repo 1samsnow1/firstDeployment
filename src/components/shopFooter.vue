@@ -3,7 +3,7 @@
 
         <div v-for="item in footerList" class="text-gray-800 text-sm sm:text-lg">
             <span class="font-bold">{{ item.name }}&nbsp;</span>
-            <span class="">{{ item.value }}</span>lmao
+            <span class="">{{ item.value }}</span>
         </div>
 
     </section>
